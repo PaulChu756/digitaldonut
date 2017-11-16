@@ -85,6 +85,14 @@ function my_theme_register_required_plugins() {
 		),
 
 		array(
+            'name'               => 'Wp Smushit',
+            'slug'               => 'wp-smushit',
+            'required'           => false,
+            'force_activation'   => true,
+            'force_deactivation' => false,
+		),
+
+		array(
 			'name'               => 'Divi Booster', // The plugin name.
 			'slug'               => 'divi-booster', // The plugin slug (typically the folder name).
 			'source'             => get_stylesheet_directory() . '/plugins/divi-booster.zip', // The plugin source.
